@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/complayout"
+    android:layout_height="140dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/competition"
+        android:hint="Competition Name"
+        android:editable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@null"
+        android:textColorHint="#ffffff"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
